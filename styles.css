@@ -47,10 +47,12 @@ main h2 {
 main p {
     font-family: "Outfit", sans-serif;
     font-size: 16px;
+    color: hsl(24, 5%, 18%);
 } 
 
 main ul li {
     font-family: "Outfit", sans-serif;
+    margin-bottom: 15px;
 }
 
 main ul li::marker {
@@ -91,16 +93,28 @@ main ul li::marker {
     font-family: "Outfit", sans-serif;
 }
 
+.content-container ol li {
+    margin-bottom: 10px;
+}
+
 .content-container ol li::marker {
     color: hsl(14, 45%, 36%);
     font-weight: 700;
 }
 
 .content-container table {
+    width: 100%;
     border-collapse: collapse;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-top: 15px;
+}
+
+.content-container tr {
+    border-bottom: 1px solid hsl(30, 18%, 87%);;
+}
+
+.content-container td {
+    font-family: "Outfit", sans-serif;
+    padding: 8px;
 }
 
 .preptime-container {
@@ -109,19 +123,30 @@ main ul li::marker {
     border-radius: 15px;
 }
 
+.preptime-container ul li::marker {
+    color: hsl(332, 51%, 32%);
+}
+
 .preptime-container h3 {
     color: hsl(332, 51%, 32%);
     font-family: "Outfit", sans-serif;
+    margin-left: 15px;
 }
 
 .preptime-container li {
     width: 100%;
     font-family: "Outfit", sans-serif;
+    margin-bottom: 10px;
 }
 
 .bold {
     font-weight: 700;
-    color: hsl(24, 5%, 18%)
+    color: hsl(24, 5%, 18%);
+}
+
+.nutri-brown {
+    font-weight: 700;
+    color: hsl(14, 45%, 36%);
 }
 
 hr {
